@@ -1,0 +1,54 @@
+\documentclass[
+  oneside,
+  dottedtoc,
+  11pt,
+  letterpaper,
+  titlepage,
+  footinclude=true,
+  headinclude=true
+]{report}
+
+\newcommand*{\thead}[1]{\multicolumn{1}{|c|}{\bfseries #1}}
+\newcommand*{\goal}{to support the DOER's commitment to reducing greenhouse gas emissions in the Commonwealth of Massachusetts by evaluating three renewable thermal pilot projects to investigate ways to improve and promote the installation of renewable thermal heating and cooling systems}
+
+\usepackage{setspace}
+\usepackage{lipsum}
+\usepackage[pdfspacing]{classicthesis}
+\usepackage[margin=1.5in]{geometry}
+\usepackage{acronym}
+\usepackage{chngpage}
+\usepackage[super]{nth}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{indentfirst}
+\onehalfspacing
+
+\title{Advancement of Renewable Thermal Energy Programs in MA through the Production of Case Studies}
+\author{
+  Keirstan Field \\
+  Carolina Leguizamon \\
+  Jonas Rogers \\
+  Luis Vargas \\\\
+  Project Advisors: Seth Tuler and Paul Mathisen
+}
+
+\begin{document}
+
+\maketitle
+\pagenumbering{roman}
+\include{FrontBackMatter/abstract}
+\include{FrontBackMatter/acknowledgements}
+% Executive Summary
+\include{authorship}
+\include{FrontBackMatter/contents}
+
+\include{introduction}
+\include{background}
+\include{methodology}
+\include{findings}
+\include{recommendations}
+
+\include{biblio}
+\include{appendices}
+  
+\end{document}
